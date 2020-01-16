@@ -1,0 +1,112 @@
+
+@font-face {
+	font-family: "DejaVu Sans ";
+	src: url ("../fonts/caps.ttf");
+}
+
+@font-face{
+	font-family: "normal-bold ";
+	src: url ("../fonts/normal-bold.ttf");
+
+
+}
+
+*{
+ padding: 0;
+ margin: 0;
+text-decoration: none;
+
+}
+
+body{
+
+	color:  #181818;
+	background: #FFFFFF;
+	
+
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;      
+   height:60px;
+   }
+
+
+
+nav li {
+
+    font-size: 14px;
+    display: inline-block;
+	flex-direction: row;
+    margin-right: 139px;
+     margin-top: 24px;
+     margin-bottom:20px ;
+ }
+        
+.menu li a:hover{
+    background: #BADC58;
+}
+ 
+ section {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+   
+ h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+     top: 308px;
+     left: 337px; 
+     width: 692px;
+
+ }
+
+section p{
+    font-size: 14px;
+    margin-bottom: 92px;
+}
+.mtavari {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 60px;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.scrol {
+    position: absolute;
+    color:#FFFFFF;
+    top: 609px;
+    left: 645px;
+    width: 76px;
+    height: 11px;
+    margin-top:43px;
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+
+h2{
+    
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+
+}
+
