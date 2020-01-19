@@ -15,6 +15,8 @@
  padding: 0;
  margin: 0;
 text-decoration: none;
+font-family: normal;
+list-style: none;
 
 }
 
@@ -22,7 +24,8 @@ body{
 
 	color:  #181818;
 	background: #FFFFFF;
-	
+	margin: auto;
+    max-width: 1366;
 
 }
 
@@ -67,6 +70,7 @@ nav li {
      top: 308px;
      left: 337px; 
      width: 692px;
+     font-family: caps;
 
  }
 
@@ -108,5 +112,23 @@ h2{
     width: 100%;
     font-size: 30px;
 
+}
+
+@media (min-width: 320px){
+    .content{
+         position: absolute;
+         z-index: -1;
+
+
+    }
+   
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
 }
 
