@@ -12,8 +12,8 @@
 }
 
 *{
- padding: 0;
- margin: 0;
+padding: 0;
+margin: 0;
 text-decoration: none;
 font-family: normal;
 list-style: none;
@@ -24,8 +24,8 @@ body{
 
 	color:  #181818;
 	background: #FFFFFF;
-	margin: auto;
-    max-width: 1366;
+	margin: 0 auto;
+    max-width: 1366px;
 
 }
 
@@ -33,22 +33,20 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1366px;      
-   height:60px;
+    align-items: center;     
+    height:60px;
+    padding: 0 20px;
    }
 
+ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
 
 
-nav li {
 
-    font-size: 14px;
-    display: inline-block;
-	flex-direction: row;
-    margin-right: 139px;
-     margin-top: 24px;
-     margin-bottom:20px ;
- }
+
         
 .menu li a:hover{
     background: #BADC58;
@@ -66,21 +64,17 @@ nav li {
    
  h1{
     font-size: 50px;
-    margin-bottom: 16px;
-     top: 308px;
-     left: 337px; 
+    margin-bottom: 16px; 
      width: 692px;
      font-family: caps;
-
- }
+}
 
 section p{
     font-size: 14px;
-    margin-bottom: 92px;
+    
 }
 .mtavari {
     width: 100vw;
-    height: 100vh;
     position: absolute;
     top: 60px;
     z-index: -2;
@@ -88,23 +82,14 @@ section p{
 }
 
 .scrol {
-    position: absolute;
     color:#FFFFFF;
-    top: 609px;
-    left: 645px;
-    width: 76px;
     height: 11px;
     margin-top:43px;
 
 
 }
 
-div {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-}
+
 
 h2{
     
@@ -128,7 +113,9 @@ h2{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: absolute;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    height: calc(100vh - 60px);
 }
 
