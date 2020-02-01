@@ -76,9 +76,10 @@ section p{
 .mtavari {
     width: 100vw;
     position: absolute;
-    top: 60px;
+    top: 0;
     z-index: -2;
     object-fit: cover;
+    height: calc(100vh - 60px);
 }
 
 .scrol {
